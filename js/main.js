@@ -1,14 +1,14 @@
-(function($) {
+var $form = $('form#signup-form'),
+    url = 'https://script.google.com/macros/s/AKfycbw_MAJhTUi2xl2wK3YhANZrSalCXVs4fZogp_A_Au1Qk91vgTea/exec'
 
-    $(".toggle-password").click(function() {
-
-        $(this).toggleClass("zmdi-eye zmdi-eye-off");
-        var input = $($(this).attr("toggle"));
-        if (input.attr("type") == "password") {
-          input.attr("type", "text");
-        } else {
-          input.attr("type", "password");
-        }
-      });
-
-})(jQuery);
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
