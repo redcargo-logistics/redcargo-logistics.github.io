@@ -9,6 +9,16 @@
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    var myimages=new Array()
+    function preloadimages(){
+    for (i=0;i<preloadimages.arguments.length;i++){
+    myimages[i]=new Image()
+    myimages[i].src=preloadimages.arguments[i]}
+}
+preloadimages("./images/signup-bgbw.png")
+
+</script>
 </head>
 <body>
 
