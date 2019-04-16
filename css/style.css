@@ -217,7 +217,7 @@ body {
     font-weight: 500; }
   .form-input:-moz-placeholder {
     font-weight: 500; }
-  /*This is the field border color  */
+  /*This is the field border color onclick  */
   .form-input:focus {
     border: 1px solid transparent;
     -webkit-border-image-source: -webkit-linear-gradient(to right, #9face6, #74ebd5);
@@ -233,7 +233,8 @@ body {
     -ms-border-radius: 5px;
     background-origin: border-box;
     background-clip: content-box, border-box; 
-    background-color: white;}
+    /*background-color: white;*/
+    }
 
     .form-input:focus::-webkit-input-placeholder {
       color: #222; }
@@ -267,74 +268,6 @@ body {
   background-image: linear-gradient(135deg, #AAFFA9, #11FFBD, #0CEBEB); 
   /*text-shadow: 1px 1px 3px #adadad;*/
 }
-
-input[type=checkbox]:not(old) {
-  width: 2em;
-  margin: 0;
-  padding: 0;
-  font-size: 1em;
-  display: none; }
-
-input[type=checkbox]:not(old) + label {
-  display: inline-block;
-  margin-top: 7px;
-  margin-bottom: 25px; }
-
-input[type=checkbox]:not(old) + label > span {
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  margin-right: 15px;
-  margin-bottom: 3px;
-  border: 1px solid #ebebeb;
-  border-radius: 2px;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  -o-border-radius: 2px;
-  -ms-border-radius: 2px;
-  background: white;
-  background-image: -moz-linear-gradient(white, white);
-  background-image: -ms-linear-gradient(white, white);
-  background-image: -o-linear-gradient(white, white);
-  background-image: -webkit-linear-gradient(white, white);
-  background-image: linear-gradient(white, white);
-  vertical-align: bottom; }
-
-input[type=checkbox]:not(old):checked + label > span {
-  background-image: -moz-linear-gradient(white, white);
-  background-image: -ms-linear-gradient(white, white);
-  background-image: -o-linear-gradient(white, white);
-  background-image: -webkit-linear-gradient(white, white);
-  background-image: linear-gradient(white, white); }
-
-input[type=checkbox]:not(old):checked + label > span:before {
-  content: '\f26b';
-  display: block;
-  color: #222;
-  font-size: 11px;
-  line-height: 1.2;
-  text-align: center;
-  font-family: 'Material-Design-Iconic-Font';
-  font-weight: bold; }
-
-.label-agree-term {
-  font-size: 12px;
-  font-weight: 600;
-  color: #555; }
-
-.term-service {
-  color: #555; }
-
-.loginhere {
-  color: #555;
-  font-weight: 500;
-  text-align: center;
-  margin-top: 91px;
-  margin-bottom: 5px; }
-
-.loginhere-link {
-  font-weight: 700;
-  color: #222; }
 
 .field-icon {
   float: right;
