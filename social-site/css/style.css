@@ -1,0 +1,303 @@
+@font-face {
+    src: url("AvenirNextPro/AvenirNextLTPro-Light.otf");
+    font-family: "Light";
+}
+
+@font-face {
+    src: url("AvenirNextPro/AvenirNextLTPro-Regular.otf");
+    font-family: "Regular";
+}
+
+@font-face {
+    src: url("AvenirNextPro/AvenirNextLTPro-Medium.otf");
+    font-family: "Medium";
+}
+
+@font-face {
+    src: url("AvenirNextPro/AvenirNextLTPro-Demi.otf");
+    font-family: "Demi";
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.regular {
+    font-family: "Regular";
+}
+
+.medium {
+    font-family: "Medium";
+}
+
+.light {
+    font-family: "Light";
+}
+
+.demi {
+    font-family: "Demi";
+}
+
+.bold {
+    font-family: "Bold";
+}
+
+.teal {
+    color: #16F0B4;
+}
+
+.back-teal {
+    background-color: #16F0B4;
+}
+
+.back-black {
+    background-color: black;
+}
+
+.rounded-max {
+    border-radius: 9999px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Regular";
+    margin: 0;
+}
+
+#logo-img {
+    margin-right: 5px;
+}
+
+nav {
+/*    box-shadow: 0 1px 6px rgba(0,0,0, 0.1);*/
+    background-color: black;
+}
+
+#collapsibleNavbar {
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: #16F0B4;
+    margin-top: 2%;
+    font-family: "Demi";
+    font-size: 24px;
+    transition: 0.2s;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-item {
+    font-family: "Regular";
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
+}
+
+.nav-link {
+    transition: 0.05s;
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#contact-btn {
+    background-color: #16F0B4;
+    border-radius: 5px;
+    width: auto;
+    margin: 0 auto;
+    color: black;
+    padding: 6px 14px;
+}
+
+#contact-btn-holder:hover {
+    transform: scale(1.1);
+}
+
+#home {
+    background-color: black;
+}
+
+.home-holder {
+    padding: 40vh 10%;
+}
+
+.tagline {
+    font-size: 84px;
+}
+
+.boxes {
+    width: 20%;
+}
+
+#product {
+    background-color: white;
+    padding: 15vh 5vh;
+}
+
+#phone {
+    width: 80%;
+    -webkit-filter: drop-shadow(0 3px 8px rgba(0,0,0,0.6));
+    filter: drop-shadow(0 3px 8px rgba(0,0,0,0.6));
+}
+
+.product-text { 
+    padding: 35% 0;
+}
+
+#coverage {
+    background-image: linear-gradient(90deg, #11FFBD, #1FD9C4);
+    padding: 15vh;
+}
+
+#coverage input {
+    border: none;
+}
+
+#flow {
+    padding: 15vh 20vh;
+    background-color: black;
+    color: white;
+}
+
+#flow button {
+    width: 200px;
+    font-size: 20px;
+    font-family: "Medium";
+}
+
+.flow-texts {
+    padding: 12vh 0;
+}
+
+#register {
+    padding: 15vh;
+}
+
+#footer {
+    padding: 6vh;
+    background-color: black;
+    color: white;
+}
+
+.socials {
+    display: inline-block;
+/*    padding: 20px;*/
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0 10px 0 0;
+    transition: 0.2s;
+    background-color: white;
+    color: black;
+}
+
+.socials:hover {
+/*    background-color: black;*/
+    color: white;
+    transform: scale(1.15);
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+.instagram {
+    color: #FD1D1D;
+}
+
+.instagram:hover {
+    background-color: #FD1D1D;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.linkedin:hover {
+    background-color: #0077B5;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding-top: 64px;
+    }
+    #collapsibleNavbar {
+        padding: 0px;
+    }
+    .esc {
+        font-size: 20px;
+        font-family: 'Light';
+    }
+    .tagline {
+        font-size: 36px;
+    }
+    .boxes {
+        width: 80%;
+    }
+    #phone {
+        width: 80%;
+    }
+    .product-text {
+        padding-top: 10%;
+        padding-bottom: 0;
+    }
+    .product-holder {
+        padding: 0;
+    }
+    
+    #coverage {
+        padding: 10vh 3vh;
+    }
+    
+    #coverage h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    
+    #coverage h5 {
+        font-family: "Light";
+        font-size: 16px;
+    }
+    
+    #coverage h4 {
+        font-size: 18px;
+    }
+    
+    #flow {
+        padding: 15vh 2vh;
+    }
+    
+    #register {
+        padding: 10vh 2vh;
+    }
+    
+    #register h1 {
+        font-size: 42px;
+    }
+    
+    #register h2 {
+        font-size: 32px;
+    }
+}
