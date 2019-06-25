@@ -205,7 +205,9 @@ nav {
     padding: 15vh;
 }
 
-
+#register button:hover {
+    color: white;
+}
 
 .socials {
     display: inline-block;
