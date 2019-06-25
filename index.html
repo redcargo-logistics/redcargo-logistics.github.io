@@ -21,7 +21,7 @@
             <div class="container">
             <!-- Brand -->
                 <div id="logo">
-                    <a class="navbar-brand align-center" href="index.html" >teleport.social</a>
+                    <a class="navbar-brand align-center" href="index.html" >teleport.social <span class="badge px-1 align-top regular" id="beta">BETA</span></a>
                 </div>
 
                 <!-- Toggler/collapsibe Button -->
@@ -215,21 +215,22 @@
                 </div>
                 <div class="row">
                     <div class="col-md-3"></div>
-                    <form class="col">
+                    <script type="text/javascript">var submitted=false;</script><iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thankyou.html';}"></iframe>
+                    <form class="col" action="https://docs.google.com/forms/d/e/1FAIpQLSdNZTDh7cImSbrz1MvPwmu7jvip-wWDHOqJI6ibmI-9xtqTTg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                         <div class="row">
                             <p class="col-12 p-0 my-1 demi">Name</p>
-                        <input class="col-12 form-control" />
+                        <input class="col-12 form-control" name="entry.672527882" required/>
                         </div>
                         <div class="row">
                             <p class="col-12 p-0 my-1 demi">Facebook / Instagram Link</p>
-                            <input class="col-12 form-control" />
+                            <input class="col-12 form-control" name="entry.1807053038" placeholder="eg. @teleport.social" required/>
                         </div>
                         <div class="row">
                             <p class="col-12 p-0 my-1 demi">Email</p>
-                            <input class="col-12 form-control" />
+                            <input type="email" class="col-12 form-control" name="entry.1352784924" required/>
                         </div>
                         <div class="row">
-                            <button class="col my-4 py-3 btn light back-black teal">Submit</button>
+                            <button class="col my-4 py-3 btn light back-black teal" type="submit">Submit</button>
                         </div>
                         
                     </form>
