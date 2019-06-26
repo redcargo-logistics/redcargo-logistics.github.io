@@ -85,7 +85,6 @@
                 </div>
             </div>
         </section>
-
         <section id="coverage">
             <div class="container-fluid coverage-holder">
                 <div class="row">
@@ -120,14 +119,12 @@
                 <div class="row" align="center">
                     <h1 class="col-12 demi text-center my-0">How It Works?</h1>
                     <div class="mx-auto my-4 py-4">
-
-                        <a data-toggle="pill" href="#buyers" role="tab"><button class="btn mx-3 py-2 px-4 my-1 back-teal rounded-max col">Buyers</button></a>
-                        <a data-toggle="pill" href="#sellers" role="tab"><button class="btn mx-3 py-2 px-4 my-1 bg-white rounded-max col">Sellers</button></a>
-
+                        <button class="btn mx-3 py-2 px-4 my-1 rounded-max col tablinks active" onclick="openCity(event,'buyers')">Buyers</button>
+                        <button class="btn mx-3 py-2 px-4 my-1 rounded-max col tablinks" onclick="openCity(event,'sellers')">Sellers</button>
                     </div> 
                 </div>
                 <div class="tab-content">
-                    <div id="buyers" class="tab-pane fade show active" role="tabpanel">
+                    <div id="buyers" class="tabcontent">
                         <div class="row mb-4 pb-4">
                             <div class="col-md-4">
                                 <img src="images/undraw_chore_list_iof3.svg" class="col-12" />
@@ -169,7 +166,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="sellers" class="tab-pane fade" role="tabpanel">
+                    <div id="sellers" class="tabcontent">
                         <div class="row mb-4 pb-4">
                             <div class="col-md-4">
                                 <img src="images/undraw_mobile_application_s7d0.svg" class="col-12" />
@@ -238,7 +235,6 @@
                 </div>
             </div>
         </section>
-        
         <section class="footer">
             <div class="container">
                 <div class="row mb-4">
@@ -310,5 +306,6 @@
         </script>
         <script src="https://kit.fontawesome.com/143b576c93.js"></script>
         <script src="js/postcode.js"></script>
+        <script src="js/tabs.js"></script>
     </body>
 </html>

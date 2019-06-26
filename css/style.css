@@ -213,6 +213,33 @@ nav {
     padding: 12vh 0;
 }
 
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.tablinks {
+    color: white;
+    border: 1px solid white;
+}
+
+.tablinks:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+.active {
+    background-color: #16F0B4;
+    border: 1px solid #16F0B4;
+    color: black;
+}
+
 #register {
     padding: 15vh;
 }
