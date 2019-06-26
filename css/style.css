@@ -330,9 +330,11 @@ nav {
     #phone {
         width: 100%;
     }
+    #product {
+        padding: 10vh 2vh;
+    }
     .product-text {
-        padding-top: 10%;
-        padding-bottom: 0;
+        padding: 10% 2vh 0 2vh;
     }
     .product-text h3 {
         font-size: 6vw;
@@ -342,7 +344,7 @@ nav {
     }
     
     #coverage {
-        padding: 10vh 3vh;
+        padding: 10vh 2vh;
     }
     
     #coverage h1 {
@@ -360,14 +362,14 @@ nav {
     }
     
     #flow {
-        padding: 15vh 2vh;
+        padding: 10vh 2vh 0 2vh;
     }
     
     #register {
         padding: 10vh 2vh;
     }
     
-    #register h1 {
+    #register h1 { 
         font-size: 42px;
     }
     
@@ -380,7 +382,7 @@ nav {
     }
     
     .footer {
-        padding: 6vh 4vh;
+        padding: 6vh 2vh;
     }
     
 }
