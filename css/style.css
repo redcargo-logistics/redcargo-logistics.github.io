@@ -334,14 +334,12 @@ nav {
         padding: 10vh 2vh;
     }
     .product-text {
-        padding: 10% 2vh 0 2vh;
+        padding: 10% 2vh;
     }
     .product-text h3 {
         font-size: 6vw;
     }
-    .product-holder {
-        padding: 0;
-    }
+    
     
     #coverage {
         padding: 10vh 2vh;
