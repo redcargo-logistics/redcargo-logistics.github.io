@@ -172,7 +172,8 @@ nav {
 }
 
 .product-text { 
-    padding: 12% 2%;
+    padding: 0vh 10px;
+    margin: auto;
 }
 
 #coverage {
