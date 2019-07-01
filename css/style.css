@@ -245,9 +245,52 @@ nav {
     padding: 15vh;
 }
 
-#register button:hover {
+.form-control {
+    height: 50px;
+    padding: 20px 10xp;
+    font-size: 18px;
+    border-radius: 4px;
+    border-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+
+#register #submitBtn {
+    color: white;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    transition: 0.2s;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Medium";
+    letter-spacing: 0.4px;
+}
+
+#register #submitBtn:hover {
+    color: #16F0B4;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    transform: translate(0, -3px);
+}
+
+/*
+.areyou {
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    font-family: "Regular";
+    padding: 8px 30px;
+    border-radius: 4px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.areyou:hover {
+    color: white;
+    background-color: #111;
+}
+
+.areyou-active {
+    background-color: black;
     color: white;
 }
+*/
 
 .socials {
     display: inline-block;

@@ -1,4 +1,4 @@
-function openCity(evt, cityName) {
+function openFlow(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -12,4 +12,4 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-document.getElementById("defaultOpen").click();
+document.getElementById("defaultFlowOpen").click();
