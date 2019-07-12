@@ -83,10 +83,12 @@
                 <div class="row">
                     <div class="col-2"></div>
                     <div class="col-md-3" align="center">
-<!--                        <img src="images/phone.png" id="phone">-->
+                        <img src="images/gif_export.gif" id="phone">
+<!--
                         <video id="video" width="100%">
                           <source src="images/flow_v1.mov" />
                         </video>
+-->
 
                     </div>
                     <div class="col-md product-text">
@@ -315,16 +317,10 @@
         </section>
         
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        
         <script>
-            AOS.init();
-        </script>
-        <script>
-            $(document).ready(function() {
-               $("#video").trigger('click');
-            });
+            document.getElementById("video").click();
             var video = document.getElementById('video'); video.addEventListener('click',function(){ video.play(); },false);
-
+            
             var myVideo = document.getElementById('video');
             if (typeof myVideo.loop == 'boolean') { // loop supported
               myVideo.loop = true;
@@ -335,10 +331,13 @@
               }, false);
             }
             myVideo.play();
+            document.getElementById("video").click();
+        </script>
+        <script>
+            AOS.init();
         </script>
         <script src="https://kit.fontawesome.com/143b576c93.js"></script>
         <script src="js/postcode.js"></script>
         <script src="js/tabs.js"></script>
-
     </body>
 </html>
