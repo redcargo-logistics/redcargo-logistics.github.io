@@ -379,10 +379,9 @@ nav {
     .product-text {
         padding: 10% 2vh;
     }
-    .product-text h3 {
-        font-size: 6vw;
+    .product-text h1 {
+        font-size: 3.8vh;
     }
-    
     
     #coverage {
         padding: 10vh 2vh;
